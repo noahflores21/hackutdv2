@@ -1,5 +1,5 @@
 import React from 'react';
-import '/Users/ishmeetsingh/hackutdv2/my-project/src/components/App.css'
+import 'C:/Users/ghumm/OneDrive/Documents/HackUTD 2024/hackutdv2/my-project/src/components/App.css'
 
 function MainApp() {
   return (
