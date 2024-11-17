@@ -11,10 +11,11 @@
     font-family: Arial, sans-serif;
     text-align: center;
     color: #222;
+    background-color: #fff;
   }
 
   .header {
-    background-color: #d80027;
+    background-color: #ff0036;
     color: #fff;
     padding: 20px;
     display: flex;
@@ -25,6 +26,15 @@
   .logo {
     font-size: 1.5rem;
     font-weight: bold;
+ }
+
+  .img {
+    width: 65px;
+    height: 65px;
+    background-color: #fff;
+    background-image: url('C:/Users/Noah Flores/Documents/hackutd v2/hackutdv2/my-project/public/Screenshot 2024-11-16 at 9.01.36 PM.png'); 
+    background-size: contain; 
+    
   }
 
   .nav {
@@ -36,7 +46,7 @@
     background: none;
     border: none;
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.5rem;
     cursor: pointer;
   }
 
@@ -45,37 +55,85 @@
   }
 
   .main-content {
-    padding: 50px 20px;
-    background-color: #f5f5f5;
+    width: 1500px;
+    height: 800px;
+    background-image: url('C:/Users/Noah Flores/Documents/hackutd v2/hackutdv2/my-project/public/frontierinfo.png'); 
+    background-size: contain; 
+    background-repeat: no-repeat; 
+    background-position: center; 
   }
 
-  .main-content h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: #222;
-    margin-bottom: 20px;
-  }
-
-  .main-content p {
-    font-size: 1.2rem;
-    margin-bottom: 30px;
-  }
-
-  .check-address {
-    padding: 10px 20px;
-    font-size: 1rem;
-    background-color: #d80027;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-
-  .check-address:hover {
-    background-color: #b80020;
-  }
 
   .footer {
     background-color: #222;
     color: #fff;
     padding: 20px;}
+
+    /* Chat Box Styles */
+.chat-box {
+  border: 1px solid #ccc;
+  padding: 16px;
+  width: 400px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.chat-history {
+  max-height: 300px;
+  overflow-y: auto;
+  margin-bottom: 16px;
+  padding-right: 10px;
+}
+
+.chat-message {
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 4px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.user-message {
+  background-color: #d1e7ff;
+  align-self: flex-start;
+}
+
+.bot-message {
+  background-color: #e6e6e6;
+  align-self: flex-end;
+}
+
+.chat-input {
+  display: flex;
+  justify-content: space-between;
+}
+
+.message-input {
+  width: 80%;
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+.send-button {
+  width: 15%;
+  padding: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  background-color: #222;
+  color: #fff;
+  padding: 20px;
+}

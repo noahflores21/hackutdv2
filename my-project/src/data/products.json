@@ -1,0 +1,79 @@
+[
+    {
+      "Product Name": "Fiber 500",
+      "Features": "500Mbps Connection. Includes one standard WIFI router",
+      "Price": "$45/mo"
+    },
+    {
+      "Product Name": "Fiber 1 Gig",
+      "Features": "1Gbps Connection. Includes one standard WIFI router",
+      "Price": "$65/mo"
+    },
+    {
+      "Product Name": "Fiber 2 Gig",
+      "Features": "2Gbps Connection. Includes one upgraded WIFI router and one extender",
+      "Price": "$99/mo"
+    },
+    {
+      "Product Name": "Additional Extender",
+      "Features": "Additional extender for above products",
+      "Price": "$5/mo per extender"
+    },
+    {
+      "Product Name": "Fiber 5 Gig",
+      "Features": "5Gbps Connection. Includes one premium router",
+      "Price": "$129/mo"
+    },
+    {
+      "Product Name": "Fiber 7 Gig",
+      "Features": "7Gbps Connection. Includes one premium router and an extender at no charge",
+      "Price": "$299/mo"
+    },
+    {
+      "Product Name": "Whole-Home Wi-Fi",
+      "Features": "Get the latest generation router with up to two additional extenders provided to Fiber 2 Gig speeds and below and 1 extender for 7 and 5 Gig to get a consistently strong Wi-Fi signal throughout the home. Helps with dead spots, drop-offs and buffering – even when the whole family is online. Devices are in addition to the free device included with internet service.",
+      "Price": "$10.00/mo"
+    },
+    {
+      "Product Name": "Unbreakable Wi-Fi",
+      "Features": "Unbreakable Wi-Fi is an add-on service for Frontier Fiber Internet customers providing a backup internet during unexpected Frontier fiber network outages. Automatic switchover during network outages and back to fiber when restored. Easily managed through the mobile app. Self-install via mobile app or free tech installation with new Fiber service. Includes 130GB of 4G LTE cellular data per month, resetting each billing cycle.",
+      "Price": "$25.00/mo"
+    },
+    {
+      "Product Name": "Battery Back-up for Unbreakable Wi-Fi",
+      "Features": "Optional Battery Backup Unit (power pack) offers up to 4 hours of power during outages.",
+      "Price": "$130.00 one-time"
+    },
+    {
+      "Product Name": "Wi-Fi Security",
+      "Features": "Advanced security managed via the app. Protects devices connected on the home network from malicious sites, scams, phishing. Parental controls restrict duration, timing, and content. Ad blocking to improve browsing experience. Internet activity reports by day, week, month.",
+      "Price": "$5.00/mo"
+    },
+    {
+      "Product Name": "Wi-Fi Security Plus",
+      "Features": "Includes Wi-Fi Security, Multi-Device Security, VPN* & Password Manager. Advanced security protects devices connected to home network and up to 3 devices while away from malicious sites, viruses, phishing. Parental controls restrict duration, timing, and content. Ad blocking to stop pop-ups. Internet activity reports by day, week, month. Guardian VPN helps protect your privacy and data on up to 5 devices while using apps and browsing the web. VPN powered by Guardian works only with devices running macOS, iOS, or Android.* Password Manager for 1 master password for all devices.",
+      "Price": "$10.00/mo"
+    },
+    {
+      "Product Name": "Total Shield",
+      "Features": "Security (anti-virus) for up to 10 devices, including mobile devices: Browsing protection warns you about known malicious sites before you connect. Parental controls help manage where, when, and how long your kids are online. VPN protects your privacy, masks your online identity, protects your online activity from outsiders and encrypts your messages. Password Manager gives you one highly secure password for all your logins.",
+      "Price": "$10.00/mo"
+    },
+    {
+      "Product Name": "My Premium Tech Pro",
+      "Features": "",
+      "Price": "$10.00/mo"
+    },
+    {
+      "Product Name": "Identity Protection",
+      "Features": "Includes personal information monitoring (SSN, phone number, email address, debit/credit card numbers, etc.) to help keep your sensitive data from becoming public. Up to $1M in identity theft insurance. Family Add-On includes 1 additional user.",
+      "Price": "$10.00/mo",
+      "Add-On Price": "$5.00/mo each additional user"
+    },
+    {
+      "Product Name": "YouTube TV",
+      "Features": "100+ live channels. No costly set-top-box. 3 simultaneous streams. Unlimited DVR storage, like traditional TV with channel guide.",
+      "Price": "$79.99/mo"
+    }
+  ]
+  

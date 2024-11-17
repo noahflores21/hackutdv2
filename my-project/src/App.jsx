@@ -1,31 +1,81 @@
-import React from 'react';
-import '/Users/Noah Flores/Documents/hackutd v2/hackutdv2/my-project/src/components/App.css'
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import 'C:/Users/Noah Flores/Documents/hackutd v2/hackutdv2/my-project/src/components/App.css';  // Ensure this path is correct for your CSS file
+import Navbar from './navbar'; // Import the Navbar component
+import products from 'C:/Users/Noah Flores/Documents/hackutd v2/hackutdv2/my-project/src/data/products.json';
+
+
+
+// Create placeholder components for each page
+function ShopPlans() {
+  return (
+    <div className="page-content">
+      <h1>Shop Plans</h1>
+      <p>Here you can shop for our plans.</p>
+    </div>
+  );
+}
+
+function Business() {
+  return (
+    <div className="page-content">
+      <h1>Business Page</h1>
+      <p>Learn more about our business offerings here.</p>
+    </div>
+  );
+}
+
+function CurrentCustomers() {
+  return (
+    <div className="page-content">
+      <h1>Current Customers</h1>
+      <p>Manage your account and settings here.</p>
+    </div>
+  );
+}
+
+function FrontierFix() {
+  return (
+    <div className="page-content">
+      <h1>FrontierFix</h1>
+      <p>This page provides information about FrontierFix services.</p>
+      <p>Here you can find detailed services and support options.</p>
+    </div>
+  );
+}
+
+function HomePage() {
+  return (
+    <div className="main-content">
+
+
+
+
+
+    </div>
+  );
+}
 
 function MainApp() {
   return (
-    <div className="App">
-      <header className="header">
-        <div className="logo">QuickFrontierFix</div>
-        <nav className="nav">
-          <button className="dummy-button">Shop Plans</button>
-          <button className="dummy-button">Business</button>
-          <button className="dummy-button">Current Customers</button>
-          <button className="dummy-button">Quick Links</button>
-        </nav>
-      </header>
+    <Router>
+      <div className="App">
+        <Navbar /> {/* Navbar stays the same across all routes */}
 
-      <main className="main-content">
-        <h1>Fast, Reliable Customer Support</h1>
-        <p>
-          Elevate everything you do with QuickFrontierFix. Our chatbot and quick question form are here to help.
-        </p>
-        <button className="dummy-button check-address">Check My Address</button>
-      </main>
+        {/* Define the routes to render the page-specific components */}
+        <Routes>
+          <Route path="/" element={<HomePage />} /> {/* Home Page with original content */}
+          <Route path="/shop-plans" element={<ShopPlans />} />
+          <Route path="/business" element={<Business />} />
+          <Route path="/current-customers" element={<CurrentCustomers />} />
+          <Route path="/frontier-fix" element={<FrontierFix />} />
+        </Routes>
 
-      <footer className="footer">
-        <p>© 2024 QuickFrontierFix. All rights reserved.</p>
-      </footer>
-    </div>
+        <footer className="footer">
+          <p>© 2024 Frontier. All rights reserved.</p>
+        </footer>
+      </div>
+    </Router>
   );
 }
 
