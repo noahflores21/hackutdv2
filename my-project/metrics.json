@@ -1,0 +1,50 @@
+{
+    "overview": "You are provided several values that can be used to identify problems (or opportunities) in a customer's home network. The following is some helpful information about how to use the data to help customers either troubleshoot their problems or select products that can improve their experience.",
+    "metrics": [
+      {
+        "name": "RSSI (Received Signal Strength Indicator)",
+        "description": "The RSSI value is an indicator of the signal strength of a wireless connection. The lower (negative) value, generally, the worse the connection and the worse speed you will have. As values go below -60dBm, customers may even see drop outs, buffering, high latency (lag or ping times), and other symptoms of poor wireless connectivity.",
+        "advice": "The best way to improve RSSI is to move a device closer to the WIFI router, or add an extender mid-way between the device and the router. Alternately, you could connect your device to the router with an ethernet cable.",
+        "notes": "Poor RSSI doesn't always mean poor experience. A Kindle or WiFi lightbulb doesn't need great speed or low latency, just 'good enough' connectivity."
+      },
+      {
+        "name": "Extenders",
+        "description": "Extenders are devices that retransmit wireless signals to improve RSSI (and therefore, speed and connection quality). Adding too many extenders is also bad as you can 'pollute' the network.",
+        "advice": "Extenders are commonly added based on square footage of a house. In most cases, you don't need an extender unless your house is > 2000 sq. ft., has multiple floors, or is made out of construction materials like concrete or steel.",
+        "notes": "Extenders can either be wireless or wired (using an Ethernet cable). They are commonly placed midway between your router and the farthest device."
+      },
+      {
+        "name": "Bits per second (bps)",
+        "description": "The throughput data helps understand how heavily the customer uses their network. Applications like online games, HD/4K streaming, and security cameras can take a lot of bandwidth. Other applications like large file downloads and telemedicine can also consume a lot of bandwidth for short periods.",
+        "advice": "Improving connectivity (either using a wired connection or improving RSSI) and increasing network speed are the only ways to ensure these applications get the bandwidth they need.",
+        "devices": [
+          {"device": "Smart speaker", "bandwidth_needed": "1-3 Mbps"},
+          {"device": "Smart light bulb system", "bandwidth_needed": "1-3 Mbps"},
+          {"device": "Smart Appliances", "bandwidth_needed": "1-2 Mbps per device"},
+          {"device": "Wi-Fi enabled door locks", "bandwidth_needed": "1-2 Mbps"},
+          {"device": "Smart thermostat", "bandwidth_needed": "1-2 Mbps"},
+          {"device": "Smart home hub/controller", "bandwidth_needed": "2-3 Mbps"},
+          {"device": "Video doorbell security camera", "bandwidth_needed": "5-7 Mbps"},
+          {"device": "In-home security camera system", "bandwidth_needed": "10+ Mbps per camera"},
+          {"device": "Smart TV streaming 4K video", "bandwidth_needed": "35+ Mbps"},
+          {"device": "Gaming console downloading games", "bandwidth_needed": "100+ Mbps"},
+          {"device": "Video calls via smartphones/laptops", "bandwidth_needed": "1-5 Mbps per device"},
+          {"device": "Connected Vehicles (like a Tesla)", "bandwidth_needed": "10+ Mbps"},
+          {"device": "Microsoft Flight Simulator 2024", "bandwidth_needed": "50+ Mbps"},
+          {"device": "Downloading Call of Duty:MW3 in < 30 minutes", "bandwidth_needed": "1,000 Mbps"},
+          {"device": "Downloading Baldur's Gate 3 in < 10 minutes", "bandwidth_needed": "1,200 Mbps"}
+        ]
+      },
+      {
+        "name": "Network Speed",
+        "description": "Network speed is typically measured in Megabits or Gigabits per second. On fiber networks, it is the same speed in both the transmit and receive directions.",
+        "advice": "More speed doesn't fix wireless problems but can help with latency, jitter, packet loss, and slow ping times. Ensure that equipment supports the required speed to avoid poor experiences."
+      },
+      {
+        "name": "Number of Wireless Devices",
+        "description": "The number of wireless devices can impact the quality of your network. Having many devices (more than 25) can mean a lot of devices transmitting at once and not enough wireless spectrum available.",
+        "advice": "Adding an extender or ensuring you have the most capable (latest generation) WIFI router can dramatically improve performance when many devices are connected."
+      }
+    ]
+  }
+  

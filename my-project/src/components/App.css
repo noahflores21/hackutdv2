@@ -31,11 +31,34 @@
   font-weight: bold;
 }
 
+.logo2 {
+  max-width: 150px; 
+  height: auto; 
+  margin-bottom: 20px; 
+}
+
+
+
+.ourImg2{
+  margin: 0 auto; /* Centers the logo container */
+
+}
+
 .img {
   width: 65px;
   height: 65px;
   align-items: center;
   background-image: url('C:/Users/Noah Flores/Documents/hackutd v2/hackutdv2/my-project/public/redLogo.png');
+  background-size: contain;
+  display: block;
+}
+
+.companyLogo {
+  width: 95px;
+  height: 95px;
+  align-items: center;
+  margin-left: 620px;
+  background-image: url('C:/Users/Noah Flores/Documents/hackutd v2/hackutdv2/my-project/public/ourLogo.png');
   background-size: contain;
   display: block;
 }
@@ -97,31 +120,67 @@
 
 /* Chat container styles */
 .chat-container {
-  max-width: 600px;
+  max-width: 900px;
+  height: 400px;
   margin: 0 auto;
   padding: 20px;
   background-color: #f9f9f9;
-  border: 1px solid #ccc;
+  border: 2px solid #ccc;
   border-radius: 10px;
+  font-family: Arial, sans-serif;
 }
 
+/* Chat history styles */
 .chat-history {
   max-height: 300px;
   overflow-y: auto;
   margin-bottom: 20px;
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.5; /* Improved line height for better readability */
 }
 
+/* Message styles */
+.user-message,
+.ai-message {
+  padding: 12px 16px;
+  border-radius: 10px;
+  max-width: 80%;
+  margin-bottom: 15px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* User message */
 .user-message {
+  background-color: #d3ffd3; /* Light green */
   text-align: left;
-  color: blue;
+  color: #333;
+  margin-right: auto; /* Align left */
+}
+
+/* AI message */
+.ai-message {
+  background-color: #e4f7fc; /* Light blue */
+  text-align: right;
+  color: #333;
+  margin-left: auto; /* Align right */
+}
+
+/* Lists in AI messages */
+.ai-message ul,
+.ai-message ol {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.ai-message li {
   margin-bottom: 10px;
 }
 
-.ai-message {
-  text-align: right;
-  color: green;
+/* Paragraph spacing for better readability */
+.ai-message p {
   margin-bottom: 10px;
 }
 
@@ -129,6 +188,7 @@
 .chat-input {
   display: flex;
   gap: 10px;
+  margin-top: 10px;
 }
 
 .chat-input input {
@@ -136,6 +196,7 @@
   padding: 10px;
   border: 1px solid #ddd;
   border-radius: 5px;
+  font-size: 16px;
 }
 
 .chat-input button {
@@ -145,11 +206,54 @@
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 16px;
 }
+
+/* Button hover effect */
+.chat-input button:hover {
+  background-color: #0056b3;
+}
+
 
 /* Footer styles */
 .footer {
   background-color: #222;
   color: #fff;
   padding: 20px;
+}
+
+
+/* Header & text styles */
+
+.page-content {
+  text-align: center;
+  margin: 20px;
+  color: rgb(0, 0, 0);
+}
+
+.page-content h1 {
+  font-size: 2.5rem;
+  color: #ff2b2b;
+  font-weight: bold;
+}
+
+.page-content p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+
+.page-content ul {
+  list-style-type: disc;
+  padding: 0;
+  margin: 20px auto;
+  text-align: left;
+  display: inline-block;
+}
+
+.page-content li {
+  font-size: 1rem;
+  color: #333;
+  margin: 5px 0;
 }

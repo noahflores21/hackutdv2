@@ -67,15 +67,31 @@ function FrontierFix() {
 
   return (
     <div className="page-content">
-      <h1>FrontierFix</h1>
+      <div className="companyLogo">
+      </div>
       <p>Welcome to the FrontierFix AI assistant. Ask questions about our services!</p>
+      <br />
+      <p>Stuck on what to ask?</p>
+      <p>Here are some examples:</p>
+      <ul>
+        <li>What internet plans are available in my area?</li>
+        <li>How can I improve my Wi-Fi signal strength?</li>
+        <li>What speed do I need for streaming 4K videos?</li>
+        <li>Which router is best for a 3,000 sq. ft. home?</li>
+        <li>How do I set up an extender to boost my Wi-Fi?</li>
+        <li>What products can help reduce buffering while gaming?</li>
+        <li>Can you explain why my internet is running slowly?</li>
+        <li>How do I troubleshoot connectivity issues?</li>
+      </ul>
 
       {/* Chat Interface */}
       <div className="chat-container">
         <div className="chat-history">
           {chatHistory.map((chat, index) => (
             <div key={index} className={chat.sender === 'User' ? 'user-message' : 'ai-message'}>
-              <strong>{chat.sender}:</strong> {chat.message}
+              <strong>{chat.sender}:</strong>
+              {/* Render AI response as HTML */}
+              <div dangerouslySetInnerHTML={{ __html: chat.message }} />
             </div>
           ))}
         </div>
@@ -97,11 +113,6 @@ function FrontierFix() {
 function HomePage() {
   return (
     <div className="main-content">
-
-
-
-
-
     </div>
   );
 }
